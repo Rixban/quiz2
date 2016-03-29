@@ -1,7 +1,16 @@
 html body {
-	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
-	background: #E7E7E7;
+	font-family: Comic-Sans;
+	color: #000033;
+	background: #F5F5F5;
+	font-size: 20px;
+	text-align: center;
+}
+
+head{
+	color: #000033;
+	font-family: Comic-Sans;
+	text-align: center;
+	font-size: 44px;
 }
 
 a {
@@ -9,17 +18,17 @@ a {
 }
 
 .content {
-	text-align: center
 	padding: 0 15% 20px;
 }
+
 
 .content h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 20px 0;
+}
 
-
-content form {
+.content form {
 	padding: 10px;
 	width: 300px;
 	margin: 0 auto;
@@ -27,8 +36,24 @@ content form {
 
 .content form input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
-	magrin-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.mouse-over{
+	background: orange;
+}
+
+.click{
+	background: yellow;
+}
+
+.submit{
+	background: #F5F5F5;
+}
+
+.timeout{
+	background: gold;
 }
