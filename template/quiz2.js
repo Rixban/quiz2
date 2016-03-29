@@ -99,7 +99,7 @@
 			}
 			
 			var place = document.getElementById("buttons");
-			console.log(place);
+			
 			place.appendChild(element);
 			
 			var element = document.createElement("input");
